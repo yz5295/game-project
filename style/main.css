@@ -1,0 +1,63 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-color: darkcyan;
+  font-family: Varela Round;
+}
+.box {
+  background-color: rgb(176, 226, 226);
+  display: inline-block;
+  padding: 30px;
+  font-size: 18px;
+  color: rgb(10, 54, 54);
+  border-radius: 20px;
+  height: 420px;
+  width: 380px;
+}
+form label {
+  padding: 60px;
+}
+input {
+  width: 310px;
+  height: 35px;
+  border-radius: 8px;
+  border: 1px gray solid;
+}
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.button {
+  height: 35px;
+  width: 310px;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 0px solid;
+  background-color: darkcyan;
+  color: azure;
+  margin-top: 3px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-family: Varela Round;
+  margin-top: 7px;
+}
+span {
+  color: red;
+}
+header img {
+  margin: 15px;
+  height: 130px;
+  width: 110px;
+}
+.box2,
+.title {
+  margin-top: 30px;
+}
+.boxclick {
+  margin-top: 20px;
+}

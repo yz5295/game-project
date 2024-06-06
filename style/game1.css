@@ -1,0 +1,104 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body {
+  text-align: center;
+  background-color: rgb(83, 172, 172);
+  font-family: Varela Round;
+}
+.continer {
+  display: flex;
+  height: 100%;
+}
+.box-l {
+  margin-top: 25px;
+}
+.box-r {
+  background-color: rgb(1, 16, 36);
+  color: rgb(217, 215, 250);
+  width: 200px;
+  text-align: center;
+  flex-direction: column;
+}
+.box-r h1 {
+  margin-top: 20px;
+}
+.theCard {
+  background-color: rgba(2, 31, 54, 0.527);
+  width: 140px;
+  height: 80px;
+  margin: 10px;
+  /* display: inline-block; */
+  border-radius: 15px;
+}
+.imgintheCard {
+  background-color: rgb(230, 243, 241);
+  width: 140px;
+  height: 80px;
+  /* /* border: 3px solid rgb(224, 202, 146); */
+  /* display: inline-block; */
+  border-radius: 15px;
+}
+.cover {
+  background-color: rgb(230, 243, 241);
+  width: 220px;
+  height: 140px;
+  margin: 10px;
+  display: inline-block;
+  border-radius: 15px;
+  position: relative;
+  overflow: hidden;
+}
+.cover img {
+  width: 220px;
+  height: 140px;
+  /* margin: 10px; */
+  /* display: inline-block; */
+  border: 2px rgb(236, 255, 252) solid;
+  border-radius: 15px;
+  display: none;
+}
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+.butten {
+  font-size: 18px;
+  padding: 3px;
+  text-align: left;
+  font-family: Varela Round;
+  border-radius: 8px;
+  border: rgba wheat 6px;
+  color: rgb(8, 42, 51);
+  /* text-decoration: none; */
+  position: absolute;
+  top: 3px;
+  left: 10px;
+}
+.butten2 {
+  /* font-size: 23px;
+  padding: 3px;
+  text-align: left;
+  font-family: Varela Round;
+  border-radius: 8px;
+  border: rgba wheat 6px;
+  color: black;
+  margin-top: 3px;
+  padding-right: 50px;
+  padding-left: 50px; */
+  height: 35px;
+  width: 310px;
+  font-size: 24px;
+  border-radius: 8px;
+  border: 0px solid;
+  background-color: darkcyan;
+  color: azure;
+  margin-top: 3px;
+  padding-right: 50px;
+  padding-left: 50px;
+  font-family: Varela Round;
+  margin-top: 7px;
+}

@@ -1,0 +1,93 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  text-align: center;
+  background-color: rgb(83, 172, 172);
+  font-family: Varela Round;
+}
+.butten {
+  font-size: 18px;
+  padding: 3px;
+  text-align: left;
+  font-family: Varela Round;
+  border-radius: 8px;
+  border: rgba wheat 6px;
+  color: black;
+  /* text-decoration: none; */
+  position: absolute;
+  top: 3px;
+  left: 10px;
+}
+.butten2 {
+  font-size: 23px;
+  padding: 3px;
+  text-align: left;
+  font-family: Varela Round;
+  border-radius: 8px;
+  border: rgba wheat 6px;
+  color: rgb(8, 42, 51);
+  margin-top: 3px;
+  padding-right: 50px;
+  padding-left: 50px;
+}
+.continer {
+  background-color: rgb(252, 246, 238);
+  display: inline-block;
+  padding: 50px;
+  /* justify-content: center;
+  align-items: center;
+  height: 100%; */
+  margin-top: 70px;
+  border-radius: 25px;
+  display: none;
+}
+.continer-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 100px);
+  grid-template-rows: repeat(3, 100px);
+  gap: 5px; /
+
+}
+.box {
+  background-color: antiquewhite;
+  padding: 20px;
+  display: block;
+  border: 1px solid #727272;
+  width: 100px;
+  height: 100px;
+}
+.boxg {
+  background-color: rgb(197, 187, 187);
+}
+.xo {
+  height: 200px;
+  width: 200px;
+  display: inline;
+  margin: 10px;
+  padding: 20px;
+  margin-top: 30px;
+  
+}
+.boxxo{
+  background-color: rgb(207, 232, 243);
+  padding: 80px;
+  display: inline-block;
+  border-radius: 25px;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 80px;
+}
+.putintable {
+  width: 90px;
+  height: 90px;
+  margin-right: -15px;
+  margin-top: -15px;
+}

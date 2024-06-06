@@ -1,0 +1,15 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.varela-round-regular {
+  font-family: "Varela Round", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+body {
+  text-align: center;
+  background-color: rgb(83, 172, 172);
+  font-family: Varela Round;
+}
